@@ -48,7 +48,7 @@ function GetQuiz() {
       }
     }
   };
-  MeQuiz.open("get", "html-quiz-json", true);
+  MeQuiz.open("get", "html-quiz.json", true);
   MeQuiz.send();
 }
 
